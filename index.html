@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950">
+    <header class="bg-gray-800 fixed top-0 w-full z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+          <a href="#" class="text-white text-2xl font-bold">My Portfolio</a>
+          <div class="space-x-4">
+            <a href="#about" class="text-gray-300 hover:text-white transition delay-150 duration-300 ease-in-out">About</a>
+            <a href="#projects" class="text-gray-300 hover:text-white transition duration-150">Projects</a>
+            <a href="#skills" class="text-gray-300 hover:text-white transition duration-300">Skills</a>
+            <a href="#connect" class="text-gray-300 hover:text-white transition duration-300">Connect</a>
+          </div>
+        </nav>
+      </header>
+      <section class="bg-fixed bg-cover bg-center h-screen flex items-center justify-center object-cover mt-6" style="background-image: url('t.jpg');">
+        <div class="text-center text-white">
+          <h1 class="text-7xl text-cyan-500	 font-bold mb-4 animate-bounce">Welcome to My Portfolio</h1>
+          <p class="text-xl text-yellow-400">Web Developer | Designer | Learner</p>
+        </div>
+      </section>
+      <section id="about" class="container mx-auto px-6 py-16 ">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+            <h2 class="text-4xl font-bold mb-4 text-emerald-200">ABOUT ME</h2>
+            <p class=" text-xl text-cyan-100 tracking-tight ">I am a passionate web developer and creative video editor with a keen eye for detail. 
+                With expertise in HTML, CSS, JavaScript, and React, I specialize in building responsive, visually appealing
+                 websites. My love for coding is complemented by my skills in video editing, where I bring stories to life 
+                 through creative cuts and dynamic effects. Whether it’s developing sleek web interfaces or editing engaging
+                  video content, I am committed to delivering high-quality results that stand out. I thrive on challenges and 
+                  constantly seek to expand my skills in both fields.</p>
+          </div>
+          <div class="md:w-1/2">
+            <img src="Picsart.jpg" alt="About Me Image" class="w-full rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ">
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="container mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400	font-mono">MY PROJECT</h2>
+        <div class="grid grid-cols-1  md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-400 bg-indigo-500 shadow-lg shadow-indigo-500/50 outline outline-offset-2 outline-blue-500 ">
+            <h3 class="text-2xl font-bold mb-4">Project 1</h3>
+            <img src="quiz.png" alt="">
+            <p class="text-gray-700">A quiz project where users can answer multiple-choice questions and receive a score at the end. HTML provides
+               the structure for the questions and options, CSS styles the quiz layout, and JavaScript manages the question logic, stores the user’s responses,
+                and calculates and displays the final score. It might also include interactive elements like 
+              a timer and dynamic feedback for correct and incorrect answers. </p>
+            <a href="#" class="text-blue-500 hover:underline">View Project</a>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-indigo-500 shadow-lg shadow-indigo-500/50 outline outline-offset-2 outline-blue-500 ">
+            <h3 class="text-2xl font-bold mb-4">Project 2</h3>
+            <img src="calculator.png" alt="">
+            <p class="text-gray-700">A basic calculator project built using HTML for the layout, CSS for styling the butt
+              ons and display screen, and JavaScript for implementing the logic. It handles basic arithmetic operations (addition, subtraction, multiplication
+              , division) and supports clearing inputs and handling real-time calculations as the user presses buttons </p>
+            <a href="#" class="text-blue-500 hover:underline">View Project</a>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-indigo-500 shadow-lg shadow-indigo-500/50 outline outline-offset-2 outline-blue-500 ">
+            <h3 class="text-2xl font-bold mb-4">Project 3</h3>
+            <img src="currency.png" alt="">
+            <p class="text-gray-700">A currency converter that allows users to select currencies and input an amount to get real-time exchange values. H
+              TML structures the input fields and selectors, CSS adds user-friendly styling, and JavaScript fetc
+              hes the latest currency rates from an API, calculates the conversions, and dynamically displays the results. </p>
+            <a href="#" class="text-blue-500 hover:underline">View Project</a>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-indigo-500 shadow-lg shadow-indigo-500/50 outline outline-offset-2 outline-blue-500 ">
+            <h3 class="text-2xl font-bold mb-4">Project 4</h3>
+            <img src="jock.png" alt="">
+            <p class="text-gray-700">This project fetches a random joke from a jokes API and displays it to the user with a click of a button.
+               HTML sets up the button and text display, CSS adds styling to the button and joke display area, and JavaScript handles 
+              the API call to retrieve a new joke and updates the UI each time </p>
+            <a href="#" class="text-blue-500 hover:underline">View Project</a>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-indigo-500 shadow-lg shadow-indigo-500/50 outline outline-offset-2 outline-blue-500 ">
+            <h3 class="text-2xl font-bold mb-4">Project 5</h3>
+            <img src="music.png" alt="">
+            <p class="text-gray-700">This app allows users to play, pause, skip, and adjust the volume of songs. HTML structures 
+              the music player's interface, CSS enhances its visual design (like responsive layouts and media 
+              controls), and JavaScript manages the audio controls, song list, and dynamic elements like the p
+              rogress bar, time updates, and volume adjustments. </p>
+            <a href="#" class="text-blue-500 hover:underline">View Project</a>
+          </div>
+          <!-- Add more project cards similarly -->
+        </div>
+      </section>
+      <section id="skills" class="container mx-auto px-6 py-16 bg-sky-200	rounded-lg">
+        <h2 class="text-4xl font-bold text-center mb-12">MY SKILLS</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold mb-2">HTML</h3>
+            <div class="bg-gray-300 w-full h-4 rounded-lg">
+              <div class="bg-teal-400 h-4 rounded-lg" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">CSS</h3>
+            <div class="bg-gray-300 w-full h-4 rounded-lg">
+              <div class="bg-lime-400 h-4 rounded-lg" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">JAVA SCRIPT  </h3>
+            <div class="bg-gray-300 w-full h-4 rounded-lg">
+              <div class="bg-amber-300 h-4 rounded-lg" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2"> REACT JS</h3>
+            <div class="bg-gray-300 w-full h-4 rounded-lg">
+              <div class="bg-orange-500 h-4 rounded-lg" style="width: 60%;"></div>
+            </div>
+          </div>
+          <!-- Add more skills with progress bars -->
+        </div>
+      </section>
+      <section id="connect" class="container mx-auto px-6 py-16 text-center">
+        <h2 class="text-4xl font-bold mb-12 text-cyan-400">CONNECT WITH ME </h2>
+        <div class="flex justify-center space-x-8">
+          <a href="https://www.linkedin.com/in/bikash-muduli-a86a33273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="hover:shadow-lg transition-shadow duration-300"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="Logo 1" class="w-12 h-12"></a>
+          <a href="https://www.instagram.com/bikash_muduli23/profilecard/?igsh=MWxkdXR5Z2lydHlmZw==" class="hover:shadow-lg transition-shadow duration-300"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Logo 2" class="w-12 h-12"></a>
+          <a href="#" class="hover:shadow-lg transition-shadow duration-300"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Logo 2" class="w-12 h-12"></a>
+          <!-- Add more logos similarly -->
+        </div>
+      </section>
+      <footer class="bg-gray-800 text-white text-center py-6">
+        <div class="space-x-4">
+          <a href="#" class="hover:text-gray-400 transition duration-300">Twitter</a>
+          <a href="https://www.linkedin.com/in/bikash-muduli-a86a33273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="hover:text-gray-400 transition duration-300">LinkedIn</a>
+          <a href="#" class="hover:text-gray-400 transition duration-300">GitHub</a>
+        </div>
+        <p class="mt-4">© 2024 My Portfolio. All Rights Reserved.</p>
+      </footer>
+                                          
+</body>
+</html>
